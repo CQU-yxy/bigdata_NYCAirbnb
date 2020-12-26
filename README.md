@@ -7,11 +7,11 @@ python==3.7
 
 Hadoop+Spark完全分布式环境
 
-与数据读取相关的第三方库：pandas，numpy
+与数据处理相关的第三方库：pandas，numpy，jieba
 
 与数据可视化相关的第三方库：matplotlib，seaborn，missingno，pycharts，wordcloud
 
-与机器学习模型相关的第三方库：pyspark.mllib，jieba
+与机器学习模型相关的第三方库：pyspark.mllib
 
 ## 数据预处理
 
@@ -27,9 +27,7 @@ Hadoop+Spark完全分布式环境
 
 ## 词云可视化
 
-首先到hadoop目录下新建文件夹proj，proj文件夹下再包括src文件夹和results文件夹，推荐使用vnc工具更方便。
-
-然后使用filezilla将需要的文件上传到src目录下，一共四个文件，事先整理的街区名字AB_data.txt，英语常见停止词stop_words.py，两个python文件。
+首先到hadoop目录下新建文件夹proj，proj文件夹下再包括src文件夹和results文件夹，推荐使用vnc工具更方便。然后使用filezilla将需要的文件上传到src目录下，一共四个文件，事先整理的街区名字AB_data.txt，英语常见停止词stop_words.py，两个python文件。
 
 首先要启动分布式集群：
 
