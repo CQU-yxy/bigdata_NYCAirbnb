@@ -1,5 +1,7 @@
 # bigdata_NYCAirbnb
-这是一个基于纽约Airbnb房源信息的数据可视化和房价预测项目，运行本项目所需要的环境为：
+这是一个基于纽约Airbnb房源信息的数据可视化和房价预测项目
+
+数据集来自https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data ，运行本项目所需要的环境为：
 
 python==3.7
 
