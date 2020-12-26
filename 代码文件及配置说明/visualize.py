@@ -27,9 +27,6 @@ class visualize:
             if num>K:
                 break
 
-
-
-
         return wordDick
 
     def drawWorcCloud(self, wordDic):
